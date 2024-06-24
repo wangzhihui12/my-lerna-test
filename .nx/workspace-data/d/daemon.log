@@ -1,0 +1,22 @@
+[NX Daemon Server] - 2024-06-24T09:58:45.861Z - Started listening on: \\.\pipe\nx\C:\Users\ADMINI~1.DES\AppData\Local\Temp\38c73962ae43aa71a05d\d.sock
+[NX Daemon Server] - 2024-06-24T09:58:45.868Z - [WATCHER]: Subscribed to changes within: F:\测试打包优化\lerna-demo (native)
+[NX Daemon Server] - 2024-06-24T09:58:45.869Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-24T09:58:45.870Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-24T09:58:45.872Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-24T09:58:45.875Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-06-24T09:58:45.876Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-06-24T09:58:45.876Z - Handled GLOB. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-06-24T09:58:45.910Z - [REQUEST]: Responding to the client. handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-06-24T09:58:45.910Z - Done responding to the client handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-06-24T09:58:45.910Z - Handled GET_NX_WORKSPACE_FILES. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-06-24T09:58:47.351Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-24T09:58:47.946Z - [WATCHER]: package-lock.json.3664619885 was modified
+[NX Daemon Server] - 2024-06-24T09:58:47.946Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-24T09:58:48.083Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-24T09:58:48.336Z - [REQUEST]: package-lock.json.3664619885
+[NX Daemon Server] - 2024-06-24T09:58:48.336Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-24T09:58:48.812Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-24T09:58:48.816Z - Time taken for 'Load Nx Plugin: F:\测试打包优化\lerna-demo\node_modules\nx\src\plugins\project-json\build-nodes\package-json-next-to-project-json' 29.701299905776978ms
+[NX Daemon Server] - 2024-06-24T09:58:48.816Z - [WATCHER]: Stopping the watcher for F:\测试打包优化\lerna-demo (sources)
+[NX Daemon Server] - 2024-06-24T09:58:48.819Z - [WATCHER]: Stopping the watcher for F:\测试打包优化\lerna-demo (outputs)
+[NX Daemon Server] - 2024-06-24T09:58:48.820Z - Server stopped because: "LOCK_FILES_CHANGED"

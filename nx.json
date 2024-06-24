@@ -1,0 +1,22 @@
+{
+  "targetDefaults": {
+    "dev": {
+      "dependsOn": []
+    },
+    "build": {
+      "dependsOn": []
+    },
+    "copyfiles": {
+      "dependsOn": []
+    },
+    "test": {
+      "dependsOn": []
+    },
+    "coverage": {
+      "dependsOn": []
+    },
+    "prepublishOnly": {
+      "dependsOn": []
+    }
+  }
+}
