@@ -1,0 +1,17 @@
+0 silly argv {
+0 silly argv   _: [ 'import' ],
+0 silly argv   lernaVersion: '8.1.3',
+0 silly argv   '$0': 'E:\\Program Files (x86)\\nodejs\\18.16.0\\node_modules\\lerna\\dist\\cli.js',
+0 silly argv   dir: '../encode-fe-lint'
+0 silly argv }
+1 notice cli v8.1.3
+2 verbose packageConfigs Resolving packages based on package.json "workspaces" configuration.
+3 verbose rootPath F:\测试打包优化\lerna-demo
+4 info versioning independent
+5 error Error: Command failed with exit code 128: git log --format=%h
+5 error fatal: your current branch 'master' does not have any commits yet
+5 error     at makeError (F:\测试打包优化\lerna-demo\node_modules\execa\lib\error.js:59:11)
+5 error     at module.exports.sync (F:\测试打包优化\lerna-demo\node_modules\execa\index.js:186:17)
+5 error     at Object.execSync (F:\测试打包优化\lerna-demo\node_modules\lerna\dist\index.js:142:31)
+5 error     at ImportCommand.externalExecSync (F:\测试打包优化\lerna-demo\node_modules\lerna\dist\index.js:7028:31)
+5 error     at ImportCommand.initialize (F:\测试打包优化\lerna-demo\node_modules\lerna\dist\index.js:6988:29)
